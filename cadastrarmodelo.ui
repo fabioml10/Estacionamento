@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastrarModelo</class>
+ <widget class="QDialog" name="CadastrarModelo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cadastrar Modelo</string>
+  </property>
+  <widget class="QPushButton" name="btnAddModelo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>170</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adicionar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineAddModelo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>170</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Modelo</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cBoxCadMarca">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string extracomment="Marca">Ford</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ford</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fiat</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCommandLinkButton" name="cmdCadMarca">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>42</y>
+     <width>30</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnAddModelo</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastrarModelo</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>218</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

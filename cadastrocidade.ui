@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastroCidade</class>
+ <widget class="QDialog" name="CadastroCidade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cadastrar Cidade</string>
+  </property>
+  <widget class="QLineEdit" name="lineAddCidade">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>170</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Cidade</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddCidade">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>170</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adicionar</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cBoxAddEstado">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="cmdAddEstado">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>43</y>
+     <width>30</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnAddCidade</sender>
+   <signal>clicked()</signal>
+   <receiver>CadastroCidade</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>219</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

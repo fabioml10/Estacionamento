@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>1430796782_login-512.png</file>
+        <file>1430796880_logout-512.png</file>
+        <file>7640.png</file>
+        <file>add.png</file>
+        <file>carro.png</file>
+    </qresource>
+    <qresource prefix="/csv">
+        <file>modelos.csv</file>
+        <file>carros.csv</file>
+        <file>cores.csv</file>
+        <file>cidades.csv</file>
+        <file>usuarios.csv</file>
+        <file>patio.csv</file>
+    </qresource>
+</RCC>
